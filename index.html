@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Minha Página Interativa</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Bem-vindo à Minha Página!</h1>
+
+        <p>Este é um site interativo com muitas funcionalidades para você explorar!</p>
+
+        <!-- Seção de entrada de dados -->
+        <section class="input-section">
+            <p>Qual é o seu nome?</p>
+            <input type="text" id="nome" placeholder="Digite seu nome">
+
+            <p>Qual é a sua cor favorita?</p>
+            <input type="text" id="cor" placeholder="Digite sua cor favorita">
+
+            <button id="resetar">Resetar</button>
+
+            <div id="mensagem" class="mensagem"></div>
+        </section>
+
+        <!-- Seção dos Nomes -->
+        <section class="team-section">
+            <h2>Conheça a Equipe</h2>
+            <div class="team-member">
+                <p><strong>Bryan</strong></p>
+                <p>Desenvolvedor Front-End</p>
+            </div>
+            <div class="team-member">
+                <p><strong>Kelvin</strong></p>
+                <p>Desenvolvedor Front-End</p>
+            </div>
+            <div class="team-member">
+                <p><strong>Luis Gustavo</strong></p>
+                <p>Desenvolvedor Back-End</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>Desenvolvido por Bryan, Kelvin e Luis Gustavo &copy; <span id="ano"></span></p>
+        <div class="social-links">
+            <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
